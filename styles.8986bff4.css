@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ceceec;
+  text-align: center;
+}
+
+.timer {
+  margin: auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field:not(:last-child) {
+  margin-right: 50px;
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
